@@ -1,0 +1,26 @@
+<%- include("partials/header") %>
+
+    <table class="table"><table>
+        <table class="table table-striped">
+            <thead>
+              <tr>
+                <th scope="col">Name</th>
+                <th scope="col">Email</th>
+                <th scope="col">Bank Balance</th>
+              </tr>
+            </thead>
+
+            <% for (let i = 0; i < User.length; i++) { %>
+              <tbody>
+                <tr>
+                    <th scope="row"><%= User[i].name %></th>
+                    <td> <%= User[i].email %></td>
+                    <td> <%= User[i].balance %></td>
+                </tr>
+                </tbody>
+
+            <% } %>
+                   
+</table> 
+
+<%- include("partials/footer") %>

@@ -1,0 +1,93 @@
+
+#header{
+    background-color: #B8FFF9;
+    padding: 10px 120px;
+
+}
+.container-fluid{
+    background-color: #B8FFF9;
+    margin: -10px;
+    padding: 3% 10% 5%;
+}
+
+
+.navbar{
+    padding: 0 0 4.5rem;
+}
+.navbar-brand{
+    font-family: 'Montserrat', sans-serif;
+        font-size: 2.5rem ! important;
+    font-weight: bold ! important;
+} 
+
+.nav-link-font{
+    margin: 0 18px;
+    font-size: 1.2rem;
+    font-family: 'Montserrat';
+}
+
+
+
+
+.gapping{
+    margin: 0px 20px;
+}
+
+/* section */
+
+#section{
+    height: 600px;
+    background-color:#EFFFFD;
+    background-size: cover;
+    padding: 100px;
+    text-align: center;
+    padding: 30px auto 30px;
+}
+.card{
+    margin: 40px 40px;
+}
+
+
+.card-img-top{
+    height: 200px;
+}
+
+
+
+/* footer */
+
+#footer{
+    background-color: #B8FFF9;
+    height: 160px;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    padding: 50px 100px;
+}
+
+
+
+
+/* tranfer form css */
+
+/* .form-center{
+    margin: 5px auto;
+} */
+
+.transfer-form{
+    width: 40%;
+    text-align: center;
+    margin: 5px auto;
+}
+
+.transfer-form .form-control{
+    margin: 20px;
+}
+
+.alert{
+    /* text-align: center; */
+    width: 35%;
+    margin: 10px 425px 10px auto ;
+}
+
+

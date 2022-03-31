@@ -1,0 +1,24 @@
+<%- include("partials/header") %>
+<div class="alert transfer-form" role="alert" display="none">
+    This is a primary alert—check it out!
+  </div>
+
+<form action="/transfer" method="post" class="transfer-form">
+            <label for="/transfer" class="col-form-label form-center"><h3>From</h3></label>
+            <input type="text" class="form-control" id="senderName" name="senderName" placeholder="Account Name">
+            <input type="text" class="form-control" id="senderEmail" name="senderEmail" placeholder="Email">
+
+
+            <label for="/transfer" class="col-form-label form-center"><h3>To</h3></label>
+            <input type="text" class="form-control" id="receiverName" name="receiverName" placeholder="Account Name">
+            <input type="text" class="form-control" id="receiverEmail" name="receiverEmail" placeholder="Email">
+
+
+            <label for="/transfer" class="col-form-label form-center"><h3>Amount</h3></label>
+            <input type="number" class="form-control form-control-2" id="amount" name="amount" placeholder="Amount">
+
+            <button type="submit" class="btn btn-outline-primary nav-link-font" >Send Money</button>
+
+</form>
+
+<%- include("partials/footer") %>

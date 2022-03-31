@@ -1,0 +1,42 @@
+<%- include("partials/header") %>
+
+<section id="section">
+    <div class="container">
+       <div class="row">
+
+           <div class="col-6" >
+               <div class="card" style="width: 25rem;">
+                   <img src="images/transfer.png" class="card-img-top" alt="Transfer">
+                   <div class="card-body">
+                            <button id="Button-transfer" type="submit" class="btn btn-outline-primary nav-link-font" >Transfer Money</button>
+                    </div>                      
+                </div>  
+           </div>
+
+           <div class="col-6" >
+               <div class="card" style="width: 25rem;">
+                   <img src="images/transition.jpg" class="card-img-top" alt="Transition">
+                   <div class="card-body">
+
+                        <!-- <form action="/home" method="post">
+                            <button type="submit" class="btn btn-outline-primary nav-link-font" formaction="/history">Transition History</button>
+                        </form> -->
+                        <button id="Button-history" type="submit" class="btn btn-outline-primary nav-link-font" >Transition History</button>
+                    </div>
+                </div>   
+           </div>
+
+       </div>
+   </div> 
+
+</section>
+<script type="text/javascript">
+    document.getElementById("Button-transfer").onclick = function () {
+        location.href = "transfer";
+    };
+    document.getElementById("Button-history").onclick = function () {
+        location.href = "history";
+    };
+</script>
+
+<%- include("partials/footer") %>
